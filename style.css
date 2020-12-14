@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  background-color: black;
+}
+
 .box {
     width: 50%;
     float: left;
@@ -21,4 +29,41 @@
   .menuP{
       background-image: url(imagem/banner.jpg);
       
+  }
+
+  .container-cards{
+    color: white;
+    padding-top: 2rem;
+
+  }
+
+  .container-cards-scrolling{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    padding: 1rem;
+  }
+
+  .container-cards-item{
+    display: inline-block;
+    transition: all .2 ease-in-out;
+    max-width: 15rem;
+    max-height: 10rem;
+
+  }
+
+  .container-cards-item:hover{
+    transform: scale(1.2);
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+
+
+  .container-cards-item img{
+    height: 100%;
+    width:  100%;  
+  }
+
+  .container-cards-tittle{
+    margin-left: 1rem;
   }
