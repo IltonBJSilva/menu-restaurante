@@ -10,3 +10,15 @@
     border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     box-sizing: border-box;
   }
+
+  .textColorTitle{
+      color: white
+    }
+  h1{
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  .menuP{
+      background-image: url(imagem/banner.jpg);
+      
+  }
